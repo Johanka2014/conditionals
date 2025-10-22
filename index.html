@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Conditionals Practice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .verb-past { color: #DC2626; font-weight: 600; }
+        .verb-present { color: #16A34A; font-weight: 600; }
+        .verb-future { color: #9333EA; font-weight: 600; }
+        .content-card {
+            background-color: white;
+            border-radius: 0.75rem;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            margin-bottom: 2rem;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen">
+
+    <div class="container mx-auto p-4 sm:p-6 md:p-8 max-w-5xl">
+
+        <!-- Page 1: Explanation --><div id="explanation-page">
+            <header class="text-center mb-8">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800">Mixed Conditionals</h1>
+                <p class="text-lg text-gray-600 mt-2">Learn how to mix conditional verb forms like a native speaker.</p>
+            </header>
+
+            <main>
+                <!-- Introduction --><div class="content-card">
+                    <p class="text-gray-700 leading-relaxed">Sometimes Unreal Conditional sentences are mixed. This means that the time in the if-clause is not the same as the time in the result. Study the examples below to learn how to mix conditional verb forms like a native speaker.</p>
+                    <div class="mt-6 flex flex-wrap gap-4 justify-center">
+                        <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">Verbs in <span class="verb-present mx-1">green</span> are in the Present Unreal Conditional.</span>
+                        <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-red-100 text-red-800">Verbs in <span class="verb-past mx-1">red</span> are in the Past Unreal Conditional.</span>
+                        <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-800">Verbs in <span class="verb-future mx-1">purple</span> are in the Future Unreal Conditional.</span>
+                    </div>
+                </div>
+
+                <!-- Pattern: Past -> Present --><div class="content-card relative overflow-hidden">
+                    <div class="absolute inset-0 z-0">
+                        <img src="https://johanka2014.github.io/conditionals/lottery.png" alt="Lottery ticket background" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-white/75"></div> <!-- Simple 75% white overlay -->
+                    </div>
+                    <h2 class="relative z-10 text-2xl font-bold text-gray-800 border-b-2 border-red-300 pb-2 mb-4">PAST <span class="text-gray-400 mx-2">→</span> PRESENT</h2>
+                    <div class="relative z-10 space-y-4">
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                            <p class="text-lg text-gray-800">If I <span class="verb-past">had won</span> the lottery, I <span class="verb-present">would be</span> rich.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But I didn't win the lottery in the past and I am not rich now.</p>
+                        </div>
+                         
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                            <p class="text-lg text-gray-800">If I <span class="verb-past">had taken</span> French in high school, I <span class="verb-present">would have</span> more job opportunities.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But I didn't take French in high school and I don't have many job opportunities.</p>
+                        </div>
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                            <p class="text-lg text-gray-800">If she <span class="verb-past">had been born</span> in the United States, she <span class="verb-present">wouldn't need</span> a visa to work here.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But she wasn't born in the United States and she does need a visa now to work here.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pattern: Past -> Future --><div class="content-card relative overflow-hidden">
+                    <div class="absolute inset-0 z-0">
+                        <img src="https://johanka2014.github.io/conditionals/skiing.png" alt="Skiing background" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-white/75"></div> <!-- Simple 75% white overlay -->
+                    </div>
+                    <h2 class="relative z-10 text-2xl font-bold text-gray-800 border-b-2 border-red-300 pb-2 mb-4">PAST <span class="text-gray-400 mx-2">→</span> FUTURE</h2>
+                    <div class="relative z-10 space-y-4">
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                            <p class="text-lg text-gray-800">If she <span class="verb-past">had signed up</span> for the ski trip last week, she <span class="verb-future">would be joining</span> us tomorrow.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But she didn't sign up for the ski trip last week and she isn't going to join us tomorrow.</p>
+                        </div>
+                        
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                            <p class="text-lg text-gray-800">If Mark <span class="verb-past">had gotten</span> the job instead of Joe, he <span class="verb-future">would be moving</span> to Shanghai.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But Mark didn't get the job and Mark is not going to move to Shanghai.</p>
+                        </div>
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                            <p class="text-lg text-gray-800">If Darren <span class="verb-past">hadn't wasted</span> his Christmas bonus gambling in Las Vegas, he <span class="verb-future">would go</span> to Mexico with us next month.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But Darren wasted his Christmas bonus gambling in Las Vegas and he won't go to Mexico with us next month.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pattern: Present -> Past --><div class="content-card relative overflow-hidden">
+                    <div class="absolute inset-0 z-0">
+                        <img src="https://johanka2014.github.io/conditionals/party_scene.png" alt="Party scene background" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-white/75"></div> <!-- Simple 75% white overlay -->
+                    </div>
+                    <h2 class="relative z-10 text-2xl font-bold text-gray-800 border-b-2 border-green-300 pb-2 mb-4">PRESENT <span class="text-gray-400 mx-2">→</span> PAST</h2>
+                    <div class="relative z-10 space-y-4">
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                            <p class="text-lg text-gray-800">If I <span class="verb-present">were</span> rich, I <span class="verb-past">would have bought</span> that Ferrari we saw yesterday.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But I am not currently rich and that is why I didn't buy the Ferrari yesterday.</p>
+                        </div>
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                            <p class="text-lg text-gray-800">If Sam <span class="verb-present">spoke</span> Russian, he <span class="verb-past">would have translated</span> the letter for you.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But Sam doesn't speak Russian and that is why he didn't translate the letter.</p>
+                        </div>
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                            <p class="text-lg text-gray-800">If I <span class="verb-present">didn't have</span> to work so much, I <span class="verb-past">would have gone</span> to the party last night.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But I have to work a lot and that is why I didn't go to the party last night.</p>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Pattern: Present -> Future --><div class="content-card relative overflow-hidden">
+                    <div class="absolute inset-0 z-0">
+                        <img src="https://johanka2014.github.io/conditionals/cruise_ship.png" alt="Cruise ship background" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-white/75"></div> <!-- Simple 75% white overlay -->
+                    </div>
+                    <h2 class="relative z-10 text-2xl font-bold text-gray-800 border-b-2 border-green-300 pb-2 mb-4">PRESENT <span class="text-gray-400 mx-2">→</span> FUTURE</h2>
+                     <div class="relative z-10 space-y-4">
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                            <p class="text-lg text-gray-800">If I <span class="verb-present">didn't have</span> so much vacation time, I <span class="verb-future">wouldn't go</span> with you on the cruise to Alaska next week.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But I do have a lot of vacation time and I will go on the trip next week.</p>
+                        </div>
+                         
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                            <p class="text-lg text-gray-800">If Cindy <span class="verb-present">were</span> more creative, the company <span class="verb-future">would send</span> her to New York to work on the new advertising campaign.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But Cindy is not creative and the company won't send her to New York to work on the new campaign.</p>
+                        </div>
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                            <p class="text-lg text-gray-800">If Dan <span class="verb-present">weren't</span> so nice, he <span class="verb-future">wouldn't be tutoring</span> you in math tonight.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But Dan is nice and he is going to tutor you tonight.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Pattern: Future -> Past --><div class="content-card relative overflow-hidden">
+                    <div class="absolute inset-0 z-0">
+                        <img src="https://johanka2014.github.io/conditionals/napa_valley.png" alt="Napa Valley background" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-white/75"></div> <!-- Simple 75% white overlay -->
+                    </div>
+                    <h2 class="relative z-10 text-2xl font-bold text-gray-800 border-b-2 border-purple-300 pb-2 mb-4">FUTURE <span class="text-gray-400 mx-2">→</span> PAST</h2>
+                     <div class="relative z-10 space-y-4">
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                            <p class="text-lg text-gray-800">If I <span class="verb-future">weren't going</span> on my business trip next week, I <span class="verb-past">would have accepted</span> that new assignment at work.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But I am going to go on a business trip next week, and that is why I didn't accept that new assignment at work.</p>
+                        </div>
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                           <p class="text-lg text-gray-800">If my parents <span class="verb-future">weren't coming</span> this weekend, I <span class="verb-past">would have planned</span> a nice trip just for the two of us to Napa Valley.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But my parents are going to come this weekend, and that is why I didn't plan a trip for the two of us to Napa Valley.</p>
+                        </div>
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                             <p class="text-lg text-gray-800">If Donna <span class="verb-future">weren't making</span> us a big dinner tonight, I <span class="verb-past">would have suggested</span> that we go to that nice Italian restaurant.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But she is going to make us a big dinner tonight, and that is why I didn't suggest that we go to that nice Italian restaurant.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pattern: Future -> Present --><div class="content-card relative overflow-hidden">
+                    <div class="absolute inset-0 z-0">
+                        <img src="https://johanka2014.github.io/conditionals/concert.png" alt="Concert background" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-white/75"></div> <!-- Simple 75% white overlay -->
+                    </div>
+                    <h2 class="relative z-10 text-2xl font-bold text-gray-800 border-b-2 border-purple-300 pb-2 mb-4">FUTURE <span class="text-gray-400 mx-2">→</span> PRESENT</h2>
+                     <div class="relative z-10 space-y-4">
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                            <p class="text-lg text-gray-800">If I <span class="verb-future">were going</span> to that concert tonight, I <span class="verb-present">would be</span> very excited.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But I am not going to go to that concert tonight and that is why I am not excited.</p>
+                        </div>
+                         
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                           <p class="text-lg text-gray-800">If Sandy <span class="verb-future">were giving</span> a speech tomorrow, she <span class="verb-present">would be</span> very nervous.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But Sandy is not going to give a speech tomorrow and that is why she in not nervous.</p>
+                        </div>
+                        <div class="p-4 bg-white/80 backdrop-blur-sm rounded-lg shadow-sm">
+                             <p class="text-lg text-gray-800">If Seb <span class="verb-future">didn't come</span> with us to the desert, everyone <span class="verb-present">would be</span> very disappointed.</p>
+                            <p class="text-sm text-gray-600 italic mt-1">But Seb will come with us to the desert and that is why everyone is so happy.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation Button --><div class="text-center mt-8">
+                    <button id="go-to-practice" class="bg-blue-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-blue-700 transition-transform transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300">
+                        Go to Practice Exercises →
+                    </button>
+                </div>
+            </main>
+        </div>
+
+        <!-- Page 2: Practice (hidden by default) --><div id="practice-page" style="display: none;">
+            <header class="text-center mb-8">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-800">Practice Zone</h1>
+                <p class="text-lg text-gray-600 mt-2">Choose an exercise to test your skills.</p>
+            </header>
+
+            <main>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Practice Tile 1 --><div class="content-card text-center hover:shadow-xl hover:-translate-y-1 transition-all cursor-pointer">
+                        <div class="text-5xl mb-4">📝</div>
+                        <h3 class="text-xl font-bold text-gray-800">Fill in the Blanks</h3>
+                        <p class="text-gray-600 mt-2">Complete the sentences with the correct verb forms.</p>
+                    </div>
+                    <!-- Practice Tile 2 --><div class="content-card text-center hover:shadow-xl hover:-translate-y-1 transition-all cursor-pointer">
+                        <div class="text-5xl mb-4">✅</div>
+                        <h3 class="text-xl font-bold text-gray-800">Multiple Choice</h3>
+                        <p class="text-gray-600 mt-2">Choose the right option to complete the conditional.</p>
+                    </div>
+                    <!-- Practice Tile 3 --><div class="content-card text-center hover:shadow-xl hover:-translate-y-1 transition-all cursor-pointer">
+                        <div class="text-5xl mb-4">🔄</div>
+                        <h3 class="text-xl font-bold text-gray-800">Sentence Scramble</h3>
+                        <p class="text-gray-600 mt-2">Put the words in the correct order to form a sentence.</p>
+                    </div>
+                     <!-- Practice Tile 4 --><div class="content-card text-center hover:shadow-xl hover:-translate-y-1 transition-all cursor-pointer">
+                        <div class="text-5xl mb-4">🤔</div>
+                        <h3 class="text-xl font-bold text-gray-800">Identify the Pattern</h3>
+                        <p class="text-gray-600 mt-2">Read the sentence and identify the conditional pattern.</p>
+                    </div>
+                     <!-- Practice Tile 5 --><div class="content-card text-center hover:shadow-xl hover:-translate-y-1 transition-all cursor-pointer">
+                        <div class="text-5xl mb-4">✍️</div>
+                        <h3 class="text-xl font-bold text-gray-800">Sentence Transformation</h3>
+                        <p class="text-gray-600 mt-2">Rewrite sentences using the mixed conditional structure.</p>
+                    </div>
+                     <!-- Practice Tile 6 --><div class="content-card text-center hover:shadow-xl hover:-translate-y-1 transition-all cursor-pointer">
+                        <div class="text-5xl mb-4">🔍</div>
+                        <h3 class="text-xl font-bold text-gray-800">Error Correction</h3>
+                        <p class="text-gray-600 mt-2">Find and correct the mistakes in the sentences.</p>
+                    </div>
+                </div>
+
+                <!-- Navigation Button --><div class="text-center mt-8">
+                     <button id="back-to-explanation" class="bg-gray-600 text-white font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-gray-700 transition-transform transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-gray-300">
+                        ← Back to Explanation
+                    </button>
+                </div>
+            </main>
+        </div>
+
+    </div>
+
+    <script>
+        // --- Page Navigation Script ---
+        const explanationPage = document.getElementById('explanation-page');
+        const practicePage = document.getElementById('practice-page');
+        const goToPracticeBtn = document.getElementById('go-to-practice');
+        const backToExplanationBtn = document.getElementById('back-to-explanation');
+
+        goToPracticeBtn.addEventListener('click', () => {
+            explanationPage.style.display = 'none';
+            practicePage.style.display = 'block';
+            window.scrollTo(0, 0); // Scroll to top of page
+        });
+
+        backToExplanationBtn.addEventListener('click', () => {
+            practicePage.style.display = 'none';
+            explanationPage.style.display = 'block';
+            window.scrollTo(0, 0); // Scroll to top of page
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
